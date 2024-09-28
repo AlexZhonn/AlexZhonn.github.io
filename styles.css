@@ -105,9 +105,14 @@ li>a{
     text-indent: 6%;
     padding-bottom: 10px;
 }
-.real-description2{
+.real-description2, .real-description3{
     text-indent: 0;
+    font-size: 18px;
+    padding-top: 10px;
+    border-bottom: solid 1px rgb(194, 190, 190);
+    padding-bottom: 10px;
 }
+
 .college{
     padding-bottom: 10px;
 }
@@ -138,4 +143,20 @@ img{
     padding-top:10px;
     padding-bottom: 10px;
     border-bottom: solid 1px rgb(194, 190, 190);
+}
+
+* {
+    transition: all .5s;
+    animation-name: myfading;
+    animation-duration: .8s;
+}
+
+@keyframes myfading {
+    from {
+          opacity: 0;
+          -webkit-transition: opacity;
+    }
+    to {
+          opacity: 1;
+    }
 }

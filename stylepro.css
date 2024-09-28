@@ -135,3 +135,18 @@ body >.card-total{
     font-family: cursive;
     color: blue;
 }
+* {
+    transition: all .5s;
+    animation-name: myfading;
+    animation-duration: .8s;
+}
+
+@keyframes myfading {
+    from {
+          opacity: 0;
+          -webkit-transition: opacity;
+    }
+    to {
+          opacity: 1;
+    }
+}
