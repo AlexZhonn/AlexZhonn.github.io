@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+
+
+header{
+    display: flex;
+    width: 100%;
+    height : 80px;
+    background-color: #0072b1;
+    text-decoration: none;
+    box-shadow: 0 -6px 10px 5px rgba(11, 11, 11, 0.5);
+
+}
+nav{
+    width: 100%;
+}
+.menu{
+    width: 15%;
+    text-align: center;
+
+}
+
+.menu a{
+    color: #fff;
+    font-weight: bold;
+
+}
+.menu a:hover{
+    color: #fff;
+    background-color: #044c73;
+    font-weight: bold;
+
+}
+.name-menu{
+    width: 30%;
+    text-align: left;
+}
+h1{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+body{
+    background-color: #fff;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    gap:5px;
+}
+li{
+    list-style-type:none ;
+}
+li>a{
+    text-decoration: none;
+}
+
+#Home{
+    height:100vh;
+    width:100%;
+    display:flex;
+    padding:0 18%;
+}
+.col {
+    padding: 0 0.75rem;
+}
+#Home >.description{
+    width: 60%;
+    height: 100%;
+    letter-spacing: .1rem;
+    padding-top: 10px;
+    
+}
+.title{
+    font-size:28px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 10px;
+}
+.real-description{
+    font-size: 18px;
+    padding-top: 10px;
+    border-bottom: solid 1px rgb(194, 190, 190);
+    text-indent: 6%;
+    padding-bottom: 10px;
+}
+.real-description2{
+    text-indent: 0;
+}
+.college{
+    padding-bottom: 10px;
+}
+#Home .info{
+    margin-top: 40px;
+    width:40%;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    border-left: solid 1px rgb(194, 190, 190);
+}
+.profile{
+    line-height:1.5;
+    margin-top:3%;
+}
+img{
+    text-align: center;
+}
+.name,.univeristy,.student{
+    padding-top:5px;
+    
+}
+.univeristy a{
+    text-decoration: none;
+    color: aqua;
+}
+.icon{
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px rgb(194, 190, 190);
+}
