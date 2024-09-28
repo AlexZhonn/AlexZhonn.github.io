@@ -71,6 +71,10 @@ li>a{
     text-decoration: none;
 }
 
+main{
+    display: flex;
+}
+
 * {
     transition: all .5s;
     animation-name: myfading;

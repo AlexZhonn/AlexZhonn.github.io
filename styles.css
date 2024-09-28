@@ -5,6 +5,7 @@
 }
 body{
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    height:100vh;
 }
 
 
@@ -101,17 +102,25 @@ li>a{
 .real-description{
     font-size: 18px;
     padding-top: 10px;
-    border-bottom: solid 1px rgb(194, 190, 190);
+    border-bottom: solid 2px rgb(194, 190, 190);
     text-indent: 6%;
     padding-bottom: 10px;
 }
-.real-description2, .real-description3{
+.real-description2{
     text-indent: 0;
     font-size: 18px;
     padding-top: 10px;
     border-bottom: solid 1px rgb(194, 190, 190);
     padding-bottom: 10px;
 }
+.real-description3{
+    text-indent: 0;
+    font-size: 18px;
+    padding-top: 10px;
+    border-bottom: solid 1px rgb(194, 190, 190);
+    padding-bottom: 10px;
+}
+
 
 .college{
     padding-bottom: 10px;
@@ -143,6 +152,10 @@ img{
     padding-top:10px;
     padding-bottom: 10px;
     border-bottom: solid 1px rgb(194, 190, 190);
+}
+
+.location{
+    font-family: cursive;
 }
 
 * {
