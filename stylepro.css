@@ -143,6 +143,7 @@ body >.card-total{
     flex-direction: row;
     justify-content: center;
     gap:30px;
+    color:#fff;
 }
 .separate{
     height: 30px;
