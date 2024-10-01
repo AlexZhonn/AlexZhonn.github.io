@@ -143,7 +143,6 @@ body >.card-total{
     flex-direction: row;
     justify-content: center;
     gap:30px;
-    color:#fff;
 }
 .separate{
     height: 30px;
@@ -167,8 +166,8 @@ body >.card-total{
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    border-radius: 25%;
-    
+    border-radius: 20%;
+    color:#ffffff
 }
 
 .card-front {
@@ -180,13 +179,15 @@ body >.card-total{
 }
 
 .card-back {
-    color: white;
+    color: #ffffff;
     transform: rotateY(180deg);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 15px;
     border: 1px solid #ccc;
+    font-size:20px;
+    text-align: center;
 }
 
 .language{
