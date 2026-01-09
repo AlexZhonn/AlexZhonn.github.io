@@ -27,7 +27,7 @@ export const projectsData: Project[] = [
     // NOTE: Replace with actual image paths in your public folder, e.g., "/projects/dashboard.png"
     // Using a placeholder color service for now so the code runs immediately.
     imageUrl: "/Project/GE.png",
-    demoLink: "https://your-demo-link.com",
+    demoLink: "https://gator-exchange.fun",
     codeLink: "https://github.com/yourusername/repo",
   },
 ];
