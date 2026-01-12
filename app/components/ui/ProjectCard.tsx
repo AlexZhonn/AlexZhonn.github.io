@@ -72,14 +72,16 @@ export const ProjectCard = ({ project, isReversed }: ProjectCardProps) => {
           </Link>
 
           {/* Code Button (Outline style) */}
-          <Link
-            href={project.codeLink}
-            target="_blank"
-            className="h-12 px-6 rounded-full border border-gray-700 text-white font-medium hover:bg-gray-900 hover:border-gray-500 transition-colors flex items-center gap-2"
-          >
-            View Code
-            <CodeBracketIcon className="h-5 w-5" />
-          </Link>
+          {project.codeLink && (
+            <Link
+              href={project.codeLink}
+              target="_blank"
+              className="h-12 px-6 rounded-full border border-gray-700 text-white font-medium hover:bg-gray-900 hover:border-gray-500 transition-colors flex items-center gap-2"
+            >
+              View Code
+              <CodeBracketIcon className="h-5 w-5" />
+            </Link>
+          )}
         </div>
       </div>
     </div>

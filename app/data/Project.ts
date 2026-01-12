@@ -7,7 +7,7 @@ export interface Project {
   techStack: string[];
   imageUrl: string; // You will replace these with local paths like "/images/project1.png" later
   demoLink: string;
-  codeLink: string;
+  codeLink: string | null;
 }
 
 export const projectsData: Project[] = [
@@ -28,6 +28,6 @@ export const projectsData: Project[] = [
     // Using a placeholder color service for now so the code runs immediately.
     imageUrl: "/Project/GE.png",
     demoLink: "https://gatorexchange.fun",
-    codeLink: "https://github.com/yourusername/repo",
+    codeLink: "",
   },
 ];
